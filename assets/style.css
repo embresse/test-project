@@ -1,0 +1,57 @@
+*{
+box-sizing: border-box;
+font-family:Verdana, Geneva, Tahoma, sans-serif; 
+}
+
+
+
+header {
+    background-color: #5794d7;
+}
+
+.page-title {
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+.hero {
+    background-size: cover;
+    background-image: url("./images/beautiful-shot-richmond-virginia-skyline-with-cloudy-blue-sky.jpg");
+    
+}
+.description {
+    padding: 10px;
+    text-align: center;
+    font-size: 24px;
+    color:#19494d;
+}
+
+.location-search {
+    width: max-content;
+    padding: 15px;
+}
+
+.weather-container {
+    width: max-content;
+    color: black;
+    margin: 15px;
+
+}
+.local-weather {
+    padding: 10px;
+
+}
+
+
+
+.checkbox-container {
+    padding-right: 30px;
+}
+
+#map {
+    height: 400px; /* The height is 400 pixels */
+    width: 75%; /* The width is the width of the web page */
+  }
